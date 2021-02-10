@@ -1,0 +1,40 @@
+{
+  "openapi" : "3.0.1",
+  "info" : {
+    "title" : "PressCentric API",
+    "version" : "2.0"
+  },
+  "servers" : [ {
+    "url" : "/next",
+    "description" : "Local server with /next basepath"
+  }, {
+    "url" : "https://dev.presscentric.com/next",
+    "description" : "Development Server"
+  } ],
+  "tags" : [ {
+    "name" : "Clients",
+    "description" : "Clients-related operations"
+  }, {
+    "name" : "Users",
+    "description" : "Backoffice users management operations"
+  }, {
+    "name" : "Orders",
+    "description" : "Orders and Jobs/Dockets operations"
+  }, {
+    "name" : "Stats",
+    "description" : "Stats of object prototype"
+  }, {
+    "name" : "Promotions",
+    "description" : "Order promotions"
+  }, {
+    "name" : "Territories",
+    "description" : "Territory"
+  }, {
+    "name" : "Uncategorized",
+    "description" : "Other requests"
+  } ],
+    "paths" : {},
+  "components" : {
+    }
+  
+}
