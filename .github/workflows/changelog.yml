@@ -15,10 +15,10 @@ jobs:
         uses: actions/checkout@v2
 
       - name: Run OpenAPI Diff (from HEAD revision)
-        uses: evereepay/openapi-diff-action@v1.0.0-beta.1
+        uses: rvolo/open-api-diff-notes-actionv0.1
         with:
-          head-spec: branch.json
-          base-spec: master.json
-          
+          baseFile: branch.json
+          headFile: master.json
+          github_token: ${{ secrets.GITHUB_TOKEN }}
           
           
